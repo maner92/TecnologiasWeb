@@ -34,7 +34,3 @@ def index(request):
             "data": str(error)
         }
     return JsonResponse(response)
-
-
-def post(self, request):
-    jd = json.loads(request.body)
